@@ -1,0 +1,73 @@
+﻿cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  winvnc.cpp
+D:\TFS Workspace\SWork\SD_Project\SRT\rfb\gii.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(171,2): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(327,2): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(883,14): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(927,15): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(974,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(979,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\winvnc.cpp(981,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  vncdesktop.cpp
+D:\TFS Workspace\SWork\SD_Project\SRT\rfb\gii.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\vncdesktop.cpp(951,7): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\vncdesktop.cpp(2587,26): warning C4805: '!=': 연산에 'int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+  service_motor.cpp
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\service_motor.cpp(55,2): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\service_motor.cpp(367,2): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\service_motor.cpp(525,6): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\winvnc\service_motor.cpp(608,2): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+  LayeredWindows.cpp
+D:\TFS Workspace\SWork\SD_Project\SRT\rfb\gii.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+  buildtime.cpp
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/PROFILE' 사양으로 인해 무시됩니다.
+Clipboard.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:REF' 사양으로 인해 무시됩니다.
+     D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\Debug\winvnc.lib 라이브러리 및 D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\Debug\winvnc.exp 개체를 생성하고 있습니다.
+TLSInternal.obj : error LNK2019: _CRYPTO_free"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _BN_new"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _BN_set_word"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _BN_free"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _ASN1_INTEGER_set"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _RSA_new"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _RSA_generate_key_ex"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _RSA_free"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _EVP_sha256"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _EVP_PKEY_assign"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _EVP_PKEY_new"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _EVP_PKEY_free"public: virtual __thiscall TLSInternal::~TLSInternal(void)" (??1TLSInternal@@UAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_sign"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_gmtime_adj"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_new"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_free"public: virtual __thiscall TLSInternal::~TLSInternal(void)" (??1TLSInternal@@UAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_NAME_oneline"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_get_serialNumber"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_set_issuer_name"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_get_issuer_name"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_get_subject_name"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_getm_notBefore"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_getm_notAfter"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_set_pubkey"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _X509_NAME_add_entry_by_txt"public: bool __thiscall TLSInternal::generateX509(void)" (?generateX509@TLSInternal@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _ERR_peek_last_error"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _ERR_error_string"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CTX_new"public: bool __thiscall TLSInternal::beforeListen(class VSocket *)" (?beforeListen@TLSInternal@@QAE_NPAVVSocket@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CTX_free"public: void __thiscall TLSInternal::FreeSSLContext(void)" (?FreeSSLContext@TLSInternal@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_get_current_cipher"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CIPHER_get_name"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_set_fd"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_get1_peer_certificate"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CTX_use_PrivateKey"public: bool __thiscall TLSInternal::beforeListen(class VSocket *)" (?beforeListen@TLSInternal@@QAE_NPAVVSocket@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CTX_use_certificate"public: bool __thiscall TLSInternal::beforeListen(class VSocket *)" (?beforeListen@TLSInternal@@QAE_NPAVVSocket@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_CTX_check_private_key"public: bool __thiscall TLSInternal::beforeListen(class VSocket *)" (?beforeListen@TLSInternal@@QAE_NPAVVSocket@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_new"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_free"public: int __thiscall TLSInternal::Close(void)" (?Close@TLSInternal@@QAEHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_accept"public: void __thiscall TLSInternal::afterAccept(class VSocket *,class VSocket *)" (?afterAccept@TLSInternal@@QAEXPAVVSocket@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_read"public: int __thiscall TLSInternal::Read(char *,unsigned int)" (?Read@TLSInternal@@QAEHPADI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_write"public: int __thiscall TLSInternal::Send(char *,unsigned int)" (?Send@TLSInternal@@QAEHPADI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _TLS_server_method"public: bool __thiscall TLSInternal::beforeListen(class VSocket *)" (?beforeListen@TLSInternal@@QAE_NPAVVSocket@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _SSL_set_shutdown"public: int __thiscall TLSInternal::Shutdown(void)" (?Shutdown@TLSInternal@@QAEHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+TLSInternal.obj : error LNK2019: _OPENSSL_init_ssl"public: __thiscall TLSInternal::TLSInternal(void)" (??0TLSInternal@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+..\..\OpenSSL\lib\libssl.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+..\..\OpenSSL\lib\libcrypto.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\Debug\winvnc.exe : fatal error LNK1120: 44개의 확인할 수 없는 외부 참조입니다.

@@ -1,0 +1,41 @@
+﻿cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  zstd_v07.c
+  zstd_v06.c
+  zstd_v05.c
+  zstd_v04.c
+  zstd_v03.c
+  zstd_v02.c
+  zstd_v01.c
+  zdict.c
+  divsufsort.c
+  fastcover.c
+  cover.c
+  zstd_ddict.c
+  zstd_decompress_block.c
+  zstd_decompress.c
+  huf_decompress.c
+  zstdmt_compress.c
+  zstd_ldm.c
+  zstd_opt.c
+  zstd_lazy.c
+  zstd_double_fast.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  zstd_fast.c
+  zstd_compress_superblock.c
+  zstd_compress_sequences.c
+  zstd_compress_literals.c
+  zstd_compress.c
+  huf_compress.c
+  fse_compress.c
+  fse_decompress.c
+  zstd_common.c
+  xxhash.c
+  error_private.c
+  hist.c
+  entropy_common.c
+  threading.c
+  debug.c
+  pool.c
+  코드를 생성하고 있습니다...
+  libzstd.vcxproj -> D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\bin\Win32_Debug\libzstd_static.lib

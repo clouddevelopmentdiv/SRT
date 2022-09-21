@@ -1,0 +1,10 @@
+﻿  nt.cpp
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(353,1): warning C4297: 'omni_semaphore::~omni_semaphore': 함수는 예외를 Throw하지 않도록 지정되었으나 예외를 Throw했습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(353,1): message : 소멸자 또는 비할당자는 가능하면 암시적으로 throw되지 않는 예외 사양을 사용합니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(600,1): warning C4297: 'omni_thread::~omni_thread': 함수는 예외를 Throw하지 않도록 지정되었으나 예외를 Throw했습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(600,1): message : 소멸자 또는 비할당자는 가능하면 암시적으로 throw되지 않는 예외 사양을 사용합니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(603,1): warning C4297: 'omni_thread::~omni_thread': 함수는 예외를 Throw하지 않도록 지정되었으나 예외를 Throw했습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(603,1): message : 소멸자 또는 비할당자는 가능하면 암시적으로 throw되지 않는 예외 사양을 사용합니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(934,1): warning C4297: 'omni_thread_dummy::~omni_thread_dummy': 함수는 예외를 Throw하지 않도록 지정되었으나 예외를 Throw했습니다.
+D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\omnithread\nt.cpp(934,1): message : 소멸자 또는 비할당자는 가능하면 암시적으로 throw되지 않는 예외 사양을 사용합니다.
+  omnithread_VC2017.vcxproj -> D:\TFS Workspace\SWork\SD_Project\SRT\winvnc\x64\Release\omnithread.lib
