@@ -1,4 +1,3 @@
-# SoftcampSRT
-
-Softcamp SRT (Softcamp Remote Transport) based on UltraVNC
+# SRT
+SRT Remote Transport based on UltraVNC
 
